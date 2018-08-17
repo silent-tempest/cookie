@@ -1,0 +1,14 @@
+{
+  "name": "super-cookie",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "string-milliseconds": "file:///home/silent/git/lib/string-milliseconds"
+  },
+  "main": "index.js",
+  "keywords": [
+    "cookie"
+  ],
+  "author": "SILENT",
+  "license": "MIT"
+}
