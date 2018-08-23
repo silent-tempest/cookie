@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "string-milliseconds": "file:///home/silent/git/lib/string-milliseconds"
+    "string-milliseconds": "silent-tempest/string-milliseconds#master"
   },
   "main": "index.js",
   "keywords": [
