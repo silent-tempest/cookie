@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * @module super-cookie
+ * @module cookie
  */
 
 exports.serialize = require( './lib/serialize' );

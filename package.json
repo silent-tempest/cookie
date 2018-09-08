@@ -1,14 +1,36 @@
 {
-  "name": "super-cookie",
+  "name": "cookie",
   "version": "1.0.0",
-  "description": "",
+  "scripts": {
+    "prepublish": "npm run lint && npm run test && npm run docs",
+    "test": "mocha -r chai/register-should",
+    "docs": "jsdoc -d docs . lib",
+    "lint": "jshint ."
+  },
   "dependencies": {
-    "string-milliseconds": "silent-tempest/string-milliseconds#master"
+    "string-milliseconds": "github:silent-tempest/string-milliseconds#master"
   },
   "main": "index.js",
-  "keywords": [
-    "cookie"
-  ],
   "author": "SILENT",
-  "license": "MIT"
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jsdoc": "^3.5.5",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-tempest/cookie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silent-tempest/cookie/issues"
+  },
+  "homepage": "https://github.com/silent-tempest/cookie#readme",
+  "description": ""
 }
